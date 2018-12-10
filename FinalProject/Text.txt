@@ -1,0 +1,19 @@
+﻿Player 1 picks a random 4 letter word.
+● Player 2 then chooses 4 letters from the English alphabet and arranges them in a
+particular order. This is Player 2’s proposal.
+● Player 1 considers the proposal and responds as follows using a 4 symbol code:
+○ For each letter of the proposal that is correct AND is in the right location,
+the code contains an asterisk (not necessarily in the same location of the
+correct letter).
+○ For each letter of the proposal that is correct but is in the wrong location,
+the code contains a hyphen.
+○ For each letter of the proposal that is not correct the code would contain a
+blank.
+○ The code is constructed by putting all the asterisks first, then the dashes
+and finally the spaces (except that the response would say NO CORRECT
+LETTERS, or something equivalent, instead of all blanks).
+● Game play proceeds in a cycle by repeating proposals and code responses until
+Player 2 guesses the word correctly (4 stars) or gives up :-(
+Obviously, it’s far easier to make the computer play the part of Player 1. So that’s what
+you need to do. Write a program that would play Mastermind in the role of Player 1 (with
+the user in the role of Player 2).
